@@ -1,0 +1,42 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color:black;
+}
+h1 {
+    font-size: 45px;
+    font-style: Bold; 
+    font-family: sans-serif;
+    color: grey;
+    padding-top: 50px;
+    padding-right: 70px;
+    padding-bottom: 30px;
+    padding-left: 400px;
+    background-image: linear-gradient(pink, white);
+        border-style: solid; 
+}
+
+p1 {
+    font-family: "Noto Sans", sans-serif;
+    padding-top: 50px;
+    padding-right: 70px;
+    padding-bottom: 30px;
+    padding-left: 360px;
+}
+
+h2 {
+    color: grey;
+    font-size: 42px;
+}
+
+p2 {
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-style: Italic;
+}
+
+p3 {
+    font-style: oblique;
+}
