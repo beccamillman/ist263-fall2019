@@ -25,20 +25,20 @@ td {
 }
 
 ul li:nth-child(1) {
-background-color: pink; 
-color: #fff; }
+background-color: white; 
+ }
 
 ul li:nth-child(2) {
-background-color: purple;
-color: #fff; }
+background-color: lightgrey;
+}
 
 ul li:nth-child(3) {
-background-color: blue;
-color: #fff; }
+background-color: white;
+}
 
 ul li:nth-child(4) {
-background-color: grey;
-color: #fff; }
+background-color: lightgrey;
+}
 
 
 ul li:nth-child(even) {
