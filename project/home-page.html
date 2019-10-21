@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bites By Becca</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <div class="topnav">
+            <a class="active" href="home-page.html"> Home</a>
+            <a href="about-page.html">About</a>
+            <a href="shop-page.html">Shop</a>
+            <a href="checkout-page.html">Checkout</a>
+
+            <input type="text" placeholder="Search..">
+          </div>
+
+    <style>
+            .row {
+                display: flex;
+                margin-bottom: 50px;
+            }
+    
+            .col {
+                flex: 1;
+                text-align: center;
+                margin: 10px;
+                border: 2px solid #ccc;
+                padding: 5px;
+                background-color: #e1e2e3;
+            }
+    
+            img {
+                width: 100%; 
+            }
+        </style>
+</head>
+<body>
+    <main>
+        <img src="main-image.jpg" alt="Main Image" height= 1000px class="center">
+        <h1>About The Company</h1>
+        <p>Bites By Becca is an online only dessert company that produces a variety of high-quality, delicious bite-sized treats.</p>
+    <h1 style="text-align: center;>">Our Products</h1>
+    <div class="row">
+            <div class="col">
+                <h2>Cakes</h2>
+                <img src="cakes.png" height= 250px alt="Cakes" /> 
+                </div>
+            <div class="col">
+                <h2>Cookies</h2>
+                <img src="cookies.png" height= 250px alt="Cookies" />
+                </div>
+            <div class="col">
+                <h2>Brownies</h2>
+                <img src="brownies.png" height= 250px alt="Brownies" />
+                </div>
+            <div class="col">
+                <h2>Donuts</h2>
+                <img src="donuts.png" height= 250px alt="Donuts" />
+                </div>
+            </div>
+    </main>
+    <article>
+        <h3>Sign up for our Email list!</h3>
+        
+        <input type="text" id="email" name="email" placeholder="Your email..">
+        <input type="submit" value="Submit">
+    </article>
+    <article>
+        <h3>Get in touch:</h3>
+        <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" placeholder="Your email..">
+    
+              
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" placeholder="Write something.." style="height:30px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+        </div>
+    </article>
+        <h4>Follow us on Social Media:</h4>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+</body>
+
+</html>
