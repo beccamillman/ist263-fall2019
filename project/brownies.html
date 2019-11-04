@@ -4,20 +4,27 @@
 <head>
     <title>Bites By Becca</title>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="project.css">
 </head>
-<body>
+<body style="background-color:pink">
 <main>
-    <img src="week-08/brownies.png" alt="Plain chocolate fudge brownie" height=300px /> 
-    <img src="week-08/seasalt.jpg" alt="Sea salt brownie" height=300px /> 
-    <img src="week-08/smores.jpg" alt="S'mores brownie" height=300px /> 
-    <img src="week-08/caramel.jpg" alt="Caramel swirl brownie" height=300px /> 
+    <h1 class="browniesmore">BROWNIES, BLONDIES, & MORE!</h1>
+    <img class="brownies" src="week-08/brownies.png" alt="Plain chocolate fudge brownie" style=width:30% /> 
+    <img class="seasalt" src="week-08/seasalt.jpg" alt="Sea salt brownie" style=width:30% /> 
+    <img class="smores" src="week-08/smores.jpg" alt="S'mores brownie" style=width:30%/> 
+    <img class="caramel" src="week-08/caramel.jpg" alt="Caramel swirl brownie" style=width:30% /> 
+    <img class="blondie" src="week-08/blondie.jpg" alt="Blondie" style=width:30% /> 
+    <img class="layerbar" src="week-08/7layerbar.jpg" alt="Seven layer bar" style=width:30% /> 
+
     <div class="container">
             <label for="select">Select your flavor:</label>
             <select id="select" name="select">
-              <option value="brownies">Plain chocolate fudge brownie</option>
+              <option value="brownies">Chocolate fudge brownie</option>
               <option value="brownies">Sea salt brownie</option>
               <option value="brownies">S'mores brownie</option>
               <option value="brownies">Caramel swirl brownie</option>
+              <option value="brownies">Blondie</option>
+              <option value="brownies">Seven layer bar</option>
             </select> 
         </div>
         <div class="container">
@@ -31,7 +38,8 @@
         </div>
             <div class="card">
                     <p><button>Add to Cart</button></p>
-                  </div>
+            </div>
 </main>
 </body>
 </html>
+
