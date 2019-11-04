@@ -4,30 +4,29 @@
 <head>
     <title>Bites By Becca</title>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-     <link rel="stylesheet" type="text/css" href="project.css">
-  
-
-    <style>
-            .row {
-                display: flex;
-                margin-bottom: 50px;
-            }
-    
-            .col {
-                flex: 1;
-                text-align: center;
-                margin: 10px;
-                border: 2px solid #ccc;
-                padding: 5px;
-                background-color: #e1e2e3;
-            }
-    
-            img {
-                width: 100%; 
-            }
-        </style>
+    <link rel="stylesheet" type="text/css" href="project.css">
 </head>
-<body>
+<style>
+    .row {
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+    .col {
+        flex: 1;
+        text-align: center;
+        margin: 10px;
+        border: 2px solid #ccc;
+        padding: 5px;
+        background-color: #e1e2e3;
+    }
+
+    img {
+        width: 100%; 
+    }
+</style>
+
+<body style="background-color:pink">
         <header>
                 <nav>
                     <ul class="site-nav">
@@ -36,47 +35,46 @@
                         <li><a href="shop-page.html">Shop</a></li>
                         <li><a href="checkout-page.html">Checkout</a></li>
                     </ul>
-                    <input type="text" placeholder="Search..">
+                    <input class="search" type="text" placeholder="Search..">
                 </nav>
             </header>
-  <main>
+    <main>
         <section>
-            <img src="week-08/banner.jpeg" alt="Banner" class="center">
+            <img class="banner" src="week-08/banner.jpeg" alt="Banner">
             <section class="hero-banner">
-                <img src="week-08/logo2.png" alt="logo"/>
-        </section>
-    <section>
-        <h1>About The Company</h1>
-        <p>Bites By Becca is an online only dessert company that produces a variety of high-quality, delicious bite-sized treats.</p>
-    <h1 style="text-align: center;>">Our Products</h1>
+                    <img src="week-08/logo2.png" alt="logo"/>
+            </section>
+    <h1 class="about">About The Company</h1>
+    <p class="description">Bites By Becca is an online only dessert company that produces a variety of high-quality, delicious bite-sized treats.</p>
+    <h1 class="products">Our Products</h1>
     <div class="row">
             <div class="col">
                 <h2>Cakes</h2>
-                <img src="week-08/cakes.png" height= 250px alt="Cakes" /> 
+                <img class="cakesh" src="week-08/cakes.png" width="250px" alt="Cakes" /> 
                 </div>
             <div class="col">
                 <h2>Cookies</h2>
-                <img src="week-08/cookies.png" height= 250px alt="Cookies" />
+                <img class="cookiesh" src="week-08/cookies.png" width="250px" alt="Cookies" />
                 </div>
             <div class="col">
                 <h2>Brownies</h2>
-                <img src="week-08/brownies.png" height= 250px alt="Brownies" />
+                <img class="browniesh" src="week-08/brownies.png" width="250px" alt="Brownies" />
                 </div>
             <div class="col">
-                <h2>Donuts</h2>
-                <img src="week-08/donuts.png" height= 250px alt="Donuts" />
+                <h2>Doughnuts</h2>
+                <img class="doughnutsh" src="week-08/doughnuts.png" width="250px" alt="Doughnuts" />
                 </div>
             </div>
-            </section>
+        </section>
     </main>
     <article>
-        <h3>Sign up for our Email list!</h3>
+        <h3 class="email">Sign up for our Email list:</h3>
         
         <input type="text" id="email" name="email" placeholder="Your email..">
         <input type="submit" value="Submit">
     </article>
     <article>
-        <h3>Get in touch:</h3>
+        <h3 class="contact">Contact Us:</h3>
         <div class="container">
                 <form action="action_page.php">
               
@@ -98,7 +96,7 @@
                 </form>
         </div>
     </article>
-        <h4>Follow us on Social Media:</h4>
+        <h4 class="follow">Follow us on Social Media:</h4>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <a href="#" class="fa fa-facebook"></a>
             <a href="#" class="fa fa-twitter"></a>
