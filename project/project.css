@@ -106,16 +106,17 @@ h1.story {
 }
 
 h2.about-becca {
-    text-align: left;
+    text-align: center;
     color: black;
     font-size: 30px;
 }
 p.me {
-    text-align: left;
+    text-align: center;
     color: black; 
     font-family: "American Typewriter", serif; 
 }
 img.becca {
+    float: left;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -123,22 +124,32 @@ img.becca {
     height: 700px;
 }
 h3.mission {
-    text-align: left;
+    text-align: center;
     color: black;
     font-size: 30px;
 }
 p.mission {
-    text-align: left;
+    text-align: center;
     color: black;
     font-family: "American Typewriter", serif; 
 }
 h3.vision {
-    text-align: left;
+    text-align: center;
     color: black;
     font-size: 30px;
 }
 p.vision {
-    text-align: left;
+    text-align: center;
+    color: black;
+    font-family: "American Typewriter", serif; 
+}
+h3.benefits {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+p.benefits {
+    text-align: center;
     color: black;
     font-family: "American Typewriter", serif; 
 }
