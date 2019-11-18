@@ -34,6 +34,7 @@
     }
  header div#logo{flex:1}
  header nav{flex:4}
+
  body {
     font-family: 'Raleway', sans-serif;
     font-size:20px;
@@ -46,7 +47,7 @@ main {
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .topnav {
@@ -139,7 +140,7 @@ h1.story {
 h2.about-becca {
     text-align: left;
     color: black;
-    font-size: 30px;
+    font-size: 90px;
 p.me {
     text-align: left;
     color: black; 
