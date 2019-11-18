@@ -5,6 +5,12 @@
     <title>Bites By Becca</title>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="project.css">
+     <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <style>
     .row {
@@ -27,15 +33,21 @@
 </style>
 <body style="background-color:pink">
         <header>
-                <nav>
-                    <ul class="site-nav">
-                        <li><a href="home-page.html">Home</a></li>
-                        <li><a href="about-page.html">About</a></li>
-                        <li><a href="shop-page.html">Shop</a></li>
-                        <li><a href="checkout-page.html">Checkout</a></li>
-                    </ul>
-                    <input class="search" type="text" placeholder="Search..">
-                </nav>
+                <div class="topnav">
+                          <a class="home-page.html" href="home-page.html">Home</a>
+                          <a href="about-page.html">About</a>
+                          <a href="shop-page.html">Shop</a>
+                          <a href="checkout-page.html">Checkout</a>
+                          <div class="search-container">
+                            <form action="/action_page.php">
+                              <input type="text" placeholder="Search.." name="search">
+                              <button type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                          </div>
+                        </div>
+                        
+                        <div style="padding-left:16px">
+                        </div>
             </header>
     <main>
         <section>
@@ -49,19 +61,19 @@
     <div class="row">
             <div class="col">
                 <h2>Cakes</h2>
-                <img class="cakesh" src="week-08/cakes.png" width="250px" alt="Cakes" /> 
+                <img src="week-08/cakes.png" class="rounded-circle" alt="Cakes" height="280" /> 
                 </div>
             <div class="col">
                 <h2>Cookies</h2>
-                <img class="cookiesh" src="week-08/cookies.png" width="250px" alt="Cookies" />
+                <img src="week-08/cookies.png" class="rounded-circle" alt="Cookies"  height="280" />
                 </div>
             <div class="col">
                 <h2>Brownies</h2>
-                <img class="browniesh" src="week-08/brownies.png" width="250px" alt="Brownies" />
+                <img src="week-08/brownies.png" class="rounded-circle" alt="Brownies"  height="280" />
                 </div>
             <div class="col">
                 <h2>Doughnuts</h2>
-                <img class="doughnutsh" src="week-08/doughnuts.png" width="250px" alt="Doughnuts" />
+                <img src="week-08/doughnuts.png" class="rounded-circle" alt="Doughnuts"  height="280" />
                 </div>
             </div>
         </section>
