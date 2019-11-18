@@ -7,19 +7,32 @@
     <link rel="stylesheet" type="text/css" href="project.css">
 </head>
 <body style="background-color:pink">
-    <header>
-        <nav>
-                <ul class="site-nav">
-                    <li><a href="home-page.html">Home</a></li>
-                    <li><a href="about-page.html">About</a></li>
-                    <li><a href="shop-page.html">Shop</a></li>
-                    <li><a href="checkout-page.html">Checkout</a></li>
-                </ul>
-        </nav>
+     <header>  
+                <header class="newlogo">
+                        <div id="logo">
+                        <img src="logo.png" style="width: 50%;">
+                        </div>
+                <div class="topnav">
+                  <a class="home-page.html" href="home-page.html">Home</a>
+                  <a href="about-page.html">About</a>
+                  <a href="shop-page.html">Shop</a>
+                  <a href="checkout-page.html">Checkout</a>
+                  <div class="search-container">
+                    <form action="/action_page.php">
+                      <input type="text" placeholder="Search.." name="search">
+                      <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                  </div>
+                </div>
+                
+                <div style="padding-left:16px">
+                </div> 
     </header>
-    <main>
+<main style="padding:1rem">    
     <h1 class="story">My Story</h1>
-        <img class="becca" src="week-08/becca.jpeg" height= 300px alt="becca" /> 
+<section style="display: flex;">
+    <div><img class="becca" src="week-08/becca.jpeg" height= 300px alt="becca" ></div>
+    <div style="padding-left: 1rem;">
         <h2 class="about-becca">About</h2>
             <p class="me">Hi! I'm Becca Millman and the founder of Bites By Becca. I have always been passionate about baking and have a major sweet tooth! As I try to eat healthy regularly, it has always been difficult for me to satisfy my cravings while trying to lead a healthy lifestyle. This is where I got the inspiration for my company: the idea to create bite-sized desserts to still be able to fulfill that sweet craving but in smaller, more controlled portions. I also am aware of the growing trend of customization, which is why I wanted the option to create your own custom sets of my various product offerings.</p>
         <h3 class="mission">Mission Statement</h3>
@@ -28,6 +41,8 @@
             <p class="vision">My overall vision for the company is to develop a unique brand through our ecommerce platform and eventually grow to various brick-and-mortar locations.</p>
         <h3 class="benefits">Bite-Sized Benefits</h3>
             <p class="benefits">Each of our bite sized desserts can be consumed in 1-3 bites and all range between 50-100 calories per bites. We also plan to add gluten-free and vegan options as we grow to offer products that are suited to anyone with dietary restrictions.</p>
+    </div>
+    </section>
     </main>
 </body>
 
