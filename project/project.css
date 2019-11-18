@@ -141,6 +141,7 @@ h2.about-becca {
     text-align: left;
     color: black;
     font-size: 30px;
+}
 p.me {
     text-align: left;
     color: black; 
@@ -182,8 +183,8 @@ img.cakes2 {
     background-size: cover;
 }
 img.cookies2 {
-    position: center;
-    float: left;
+    position: relative;
+    float: center;
     width:  272px;
     height: 272px;
     background-position: 50% 50%;
