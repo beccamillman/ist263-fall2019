@@ -29,13 +29,13 @@
         padding: 5px;
         background-color: white;
     }
-  .newlogo {
+    .newlogo {
         display: flex;
     }
- header div#logo{flex:1}
- header nav{flex:4}
+  header div#logo{flex:1}
+  header nav{flex:4}
 
- body {
+body {
     font-family: 'Raleway', sans-serif;
     font-size:20px;
 }
@@ -117,25 +117,38 @@ body {
     border: 1px solid #ccc;  
   }
 }
+h1.about { 
+    padding: 20px;
+}
 p.description {
     font-size: 20px;
+    padding: 10px;
+}
+h1.products {
+    padding: 20px;
 }
     div.col {
         font-size: 20px;
+}
+h3.signupemail {
+    padding: 10px;
 }
 h3.email {
     font-size: 30px;
 }
 h3.contact {
     font-size: 30px;
+    padding: 15px;
 }
 h4.follow {
     font-size: 30px;
+    padding: 15px;
 }
 h1.story {
     text-align: center;
     color: black;
     font-size: 90px;
+    padding: 20px;
 }
 h2.about-becca {
     text-align: left;
@@ -212,6 +225,7 @@ img.doughnuts2 {
 h1.browse {
     text-align: center;
     font-size: 70px;
+    padding: 15px;
 }
 input.search {
    float: right;
